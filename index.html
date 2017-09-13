@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+  
+    <title>The Dream Reaper</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+     <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Condiment" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+         
+    <![endif]-->
+    <script  type="text/javascript">
+         // RELOADS WEBPAGE WHEN MOBILE ORIENTATION CHANGES  
+    window.onorientationchange = function() { 
+        var orientation = window.orientation; 
+            switch(orientation) { 
+                case 0:
+                case 90:
+                case -90: window.location.reload(); 
+                break; } 
+    };
+    </script>
+</head>
+
+<body>
+    
+<div class="container-fluid" class = "viewport">
+<!-- Page Content -->
+<div id="mySidenav" class="sidenav">
+
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="#" data-toggle="collapse" data-target="#collapseChapter" aria-expanded="false" aria-controls="collapseChapter">Chapters</a>
+
+<div class="collapse chapternav" id="collapseChapter">
+
+   <a class = "chapter-inactive" href = '#'>1</a>
+       <a class = "chapter-inactive" href = '#'>2</a>
+       <a class = "chapter-inactive" href = '#'>3</a>
+       <a class = "chapter" href = 'index.html'>4 - The Meeting</a>
+       <a class = "chapter-inactive" href = '#'>5</a>
+       <a class = "chapter-inactive" href = '#'>6</a>
+       <a class = "chapter-inactive" href = '#'>7</a>
+</div>
+<a href="contact.html">Contact</a>
+<a href="subscribe.html">Subscribe</a>
+</div>       
+    <div class="row-fluid">
+     <button type="button" onclick="openNav()" id="backward" class="btn btn-default back"><i class="fa fa-bars fa-3x" aria-hidden="true"></i></button>
+      <!--<button type="button" class="btn btn-secondary"><i class="fa fa-caret-square-o-right fa-5x" aria-hidden="true"></i></button>  -->
+        <div class='strip scrollmenu'> 
+        <div class="row-fluid ">
+           
+   <button type="button" id = "for" class="btn btn-default forward"><i class="fa fa-arrow-right fa-5x" aria-hidden="true"></i></button>
+        </div>
+       
+            <img src ="content/eftsc-cover.jpg" class='make-it-fit'/><img src ="content/eftsc-4.jpg" class='make-it-fit'/><img src ="content/eftsc-cs.jpg" class='make-it-fit'/>
+    
+        </div>
+             
+    </div>
+            <!-- /row -->
+</div>
+
+
+</div>
+
+    <!-- /.container -->
+    <!-- jQuery Version 1.11.1 -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
